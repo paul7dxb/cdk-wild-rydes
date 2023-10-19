@@ -1,14 +1,17 @@
-# Welcome to your CDK TypeScript project
+# Welcome to your CDK Wild Rydes
 
-This is a blank project for CDK development with TypeScript.
+This is a Typescript CDK project to create a deployable solution presented in the AWS tutorial found [here](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?ref=gsrchandson)
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+|Command| Description|
+| --- | --- |
+|npm install -g aws-cdk-lib | Install the CDK CLI and libraries
+|cdk synth | Synthesizes and prints the CloudFormation template
+|cdk bootstrap | Deploys the CDK Toolkit staging Stack
+|cdk deploy | Deploy the Stack(s)
+|cdk diff | View differences of local CDK and deployed Stack
+|cdk destroy | Destroy the Stack(s)
+| cdk deploy --hotswap | Drift Cloudformation instead of redeploying (dev) |
+| cdk deploy --outputs-file \<filename> | Output Stack outputs to a file |
