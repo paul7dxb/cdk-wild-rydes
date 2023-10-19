@@ -2,6 +2,17 @@
 
 This is a Typescript CDK project to create a deployable solution presented in the AWS tutorial found [here](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?ref=gsrchandson)
 
+# Elements
+
+- Cognito
+- REST API Gateway
+- Lambda
+- Dynamo DB
+
+- The Frontend website is deployed seperately with Amplify
+
+![image](https://github.com/paul7dxb/cdk-wild-rydes/assets/62883464/316872f8-3781-4c2e-821b-7cbbc01b68ea)
+
 
 ## Useful commands
 
