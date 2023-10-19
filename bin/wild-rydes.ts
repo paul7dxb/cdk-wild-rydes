@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { CdkSandboxStack } from '../lib/cdk-sandbox-stack';
+import { WildRydesStack } from '../lib/wild-rydes-stack';
 
 const app = new cdk.App();
-new CdkSandboxStack(app, 'CdkSandboxStack', {
+new WildRydesStack(app, 'WildRydesStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

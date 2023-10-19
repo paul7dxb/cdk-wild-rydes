@@ -1,9 +1,9 @@
 // import * as cdk from 'aws-cdk-lib';
 // import { Template } from 'aws-cdk-lib/assertions';
-// import * as CdkSandbox from '../lib/cdk-sandbox-stack';
+// import * as CdkSandbox from '../lib/wild-rydes-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/cdk-sandbox-stack.ts
+// example resource in lib/wild-rydes-stack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
