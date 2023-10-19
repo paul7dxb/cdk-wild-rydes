@@ -1,4 +1,4 @@
-# Welcome to your CDK Wild Rydes
+# Welcome to Wild Rydes CDK
 
 This is a Typescript CDK project to create a deployable solution presented in the AWS tutorial found [here](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?ref=gsrchandson)
 
